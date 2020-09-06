@@ -1,0 +1,33 @@
+@media (max-width:768px){
+    .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        
+    }
+    .le{
+        height: 300px;
+    }
+    .le h1{
+        font-size: 35px;
+    }
+    .rightii{
+        font-size: 18px;
+        margin-left: -50px;
+         margin-top: -80px;
+    }
+    
+    .Work{
+        padding-top:-400px;
+    }
+    .panel{
+       margin:30px;
+    }
+    .wrapper{
+        margin-left: -10px;
+    }
+    .wrapper .button:nth-child(5) span{
+    word-break: keep-all;
+        width: 150px;
+}
+}
