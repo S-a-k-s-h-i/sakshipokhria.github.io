@@ -6,31 +6,28 @@
         
     }
     #particles-js{
-        height: 900px;
+        height: 130vh;
     }
-
-    .le{
-        height:25rem;
-        align-content: center;
-       
+    .left{
+        height:60vh;
     }
-    .le h1{
-        font-size: 2rem;
+    .left h1{
+        font-size: 2rem
     }
-    .le p{
+    .left p{
         font-size: 1.2rem;
     }
     .type{
         font-size: 1.2rem;
     }
-    .me{
-        height: 31.25rem;
-        font-size: 1rem;
-        padding-left: 3rem !important;
+    .right{
+        height:70vh;
+        
     }
-    .col-md-6.col-sm-12.me {
-    margin-left: -1rem;
-}
+    .right p{
+        font-size: 1rem;
+    }
+
     #Work h1{
        font-size: 2.3rem;
     }

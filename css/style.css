@@ -1,10 +1,9 @@
 *{
    padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 #particles-js{
     z-index: 0;
     background: url(../img/Black%20Sunset%20Horizon%20Photo%20Desktop%20Wallpaper.png) no-repeat center center fixed;
@@ -62,32 +61,45 @@ canvas{
 .container_me{
     position: absolute;
     top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex: 1;
+   
+}
+.right{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex: 1;
+    font-size:1.25rem;
+    font-family: 'VT323', monospace;
 }
 
 .container_me p,h1{
     color: white;
 }
-.me{ 
-    
-   position: absolute;
-    padding-top:12.5rem;
-    padding-left:18.25rem !important;
-    font-family: 'VT323', monospace;
-    font-size:1.25rem;
-}
+
 .desig{
     font-size:1.25rem;
 }
-.le{
-    position: absolute;
-    padding-top:12.5rem;
-    padding-left:6.25rem !important;
-}
-.le h1{
+.left h1{
     font-family: 'Balsamiq Sans', cursive;
     font-size:2.5rem;
 }
-.le p{
+.left p{
     font-size: 1.5rem;
 }
 .type{
