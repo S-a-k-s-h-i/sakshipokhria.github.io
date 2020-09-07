@@ -59,7 +59,10 @@ canvas{
     color: white;
 }
 
-
+.container_me{
+    position: absolute;
+    top: 0;
+}
 
 .container_me p,h1{
     color: white;
@@ -68,7 +71,7 @@ canvas{
     
    position: absolute;
     padding-top:12.5rem;
-    padding-left:6.25rem !important;
+    padding-left:18.25rem !important;
     font-family: 'VT323', monospace;
     font-size:1.25rem;
 }
@@ -277,7 +280,7 @@ footer{
 footer h5{
     color:skyblue;
 }
-footer p{
+footer a{
     color:skyblue;
 }
 
