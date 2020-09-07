@@ -1,22 +1,32 @@
 @media (max-width:768px){
+    *{
+        font-size: 1rem;
+    }
     .panel{
         position: initial;
         width: initial;
         height: initial;
         
     }
+    #particles-js{
+        height: 200vh;
+    }
+
     .le{
-        height: 300px;
+        height:100vh;
+        align-content: center;
+    }
+    .me{
+        height: 100vh;
+    }
+    .me p{
+        top: 50%;
+        left: 40%;
     }
     .le h1{
         font-size: 35px;
     }
-    .rightii{
-        font-size: 18px;
-        margin-left: -50px;
-         margin-top: -80px;
-    }
-    
+
     .Work{
         padding-top:-400px;
     }
