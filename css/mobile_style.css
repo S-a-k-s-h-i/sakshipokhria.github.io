@@ -10,6 +10,7 @@
     }
     .left{
         height:60vh;
+        justify-content:flex-end;
     }
     .left h1{
         font-size: 2rem
@@ -22,6 +23,7 @@
     }
     .right{
         height:70vh;
+        justify-content: flex-end;
         
     }
     .right p{
