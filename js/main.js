@@ -2,7 +2,6 @@ console.log("hello");
 $(document).ready(function(){
     $(window).scroll(function(){
         var positiontop=$(document).scrollTop();
-        console.log(positiontop);
         if(positiontop>1500){
             $('.flex').addClass('animate__animated animate__bounce');
         }
