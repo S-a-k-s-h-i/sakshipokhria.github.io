@@ -6,10 +6,10 @@
         
     }
     #particles-js{
-        height: 130vh;
+        height: 135vh;
     }
     .left{
-        height:55vh;
+        height:60vh;
         justify-content:flex-end;
     }
     .left h1{
@@ -17,6 +17,7 @@
     }
     .left p{
         font-size: 1.2rem;
+        
     }
     .type{
         font-size: 1.2rem;
@@ -28,6 +29,7 @@
     }
     .right p{
         font-size: 1rem;
+        margin-bottom: 3rem;
     }
 
     #Work h1{
@@ -61,7 +63,7 @@
         font-size: 2rem;
     }
     .cover .content{
-    padding-top: 10vmin;
+    padding-top:2rem;
 }
     footer h5{
         font-size: 1rem;
